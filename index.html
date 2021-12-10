@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+<nav>
+   <div class="nav-wrapper ">
+      <div class="container">
+         <div class="logo">
+            <a href="#" class="brand-logo "><img src="Logo1.svg" width="64" height="64" alt="image"></a>
+         </div>
+         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+         <ul class="right hide-on-med-and-down ml-auto">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#inform">Информация</a></li>
+            <li><a href="#auth">Корзина<span class="countTiket tiket-count">0</span></a></li>
+
+         </ul>
+         <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#inform">Информация</a></li>
+            <li><a href="#auth">Корзина<span class="countTiket tiket-count">0</span></a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
+<h5>Поисковик дешевых авиабилетов</h5>
+<div id=map></div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+</html>

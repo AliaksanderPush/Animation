@@ -1,0 +1,50 @@
+.background {
+  fill: #6cb0e0;
+  pointer-events: all;
+}
+.countries {
+  fill: #b0d0ab;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.airports {
+  fill: #036;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.plane {
+  fill: #fff;
+  stroke-width: 0;
+}
+.route {
+  fill: none;
+}
+h5 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+@media (max-width: 768px) {
+  #map {
+    margin-top: -100px;
+  }
+}
+@media (min-width: 768px) {
+  #map {
+    margin-top: -300px;
+  }
+}
+@media (max-width: 1400px) {
+  #map {
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 1200px) {
+  #map {
+    transform: scale(0.8);
+  }
+}
